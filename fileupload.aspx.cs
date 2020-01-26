@@ -21,9 +21,9 @@ namespace fileupload
                 try
                 {
 
-                    fileupload1.SaveAs("E:\\" + fileupload1.FileName);
+                    fileupload1.SaveAs("C:\\" + fileupload1.FileName);//path of the file to upload file
 
-                    lblMessage.Text = "File uploaded succesfully in C:Drive";
+                    lblMessage.Text = "File uploaded succesfully in C:Drive" + fileupload1.PostedFile.ContentLength + "\t"+ "MB"; ;//Displaying size of the uploaded file
                 }
                 catch (Exception ex)
                 {
