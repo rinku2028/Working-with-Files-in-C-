@@ -11,7 +11,7 @@
         <div>
             <asp:FileUpload ID="fileupload1" runat="server" />
             <asp:Button ID="btnupload" runat="server" Text="Upload File" OnClick="btnupload_Click" />
-            <asp:Label ID="lblMessage" runat="server" Text="Label"></asp:Label>
+            <asp:Label ID="lblMessage" runat="server" Text=""></asp:Label>
 
         </div>
     </form>
